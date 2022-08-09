@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -33,6 +33,65 @@
     transform: rotate(0deg);
   }
   to {
+    https://img.freepik.com/free-photo/abstract-luxury-blur-dark-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-54743.jpg?w=740&t=st=1660024154~exp=1660024754~hmac=3b28602752afc58db7e94679554ae4cfc3ef82a2190f33628cf6dc5ce500da10
     transform: rotate(360deg);
   }
+} */
+.banner {
+  width: 100%;
+  height: 100vh;
+  /* background: url("/img/bg.jpg"); */
+  /* background: url("https://img.freepik.com/free-photo/navy-blue-smoky-art-abstract-background_53876-102669.jpg?w=740&t=st=1660023481~exp=1660024081~hmac=c73dca80fa0759f922068179a4d80a9003766348083818be920895b580196780"); */
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  position: relative;
+
+}
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
