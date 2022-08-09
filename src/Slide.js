@@ -18,7 +18,7 @@ const Slide = () => {
 
     return (
         <>
-        <h1 className='text-center text-4xl font-bold m-20'>Products</h1>
+        <h1 className='text-center text-4xl font-bold lg:m-20'>Products</h1>
       <Swiper
         slidesPerView={3}
         spaceBetween={30}

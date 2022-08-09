@@ -25,14 +25,14 @@ const SocialLogin = () => {
     return (
         
             <div>
-        <div className="divider text-white">OR</div>
+        <div className="divider text-black">OR</div>
           {errorElement}
          
           <div className=''>
               <button
 
                   onClick={() => signInWithGoogle()}
-                  className='btn bg-blue-700 w-full d-block mx-auto'>
+                  className='btn bg-black text-white w-full d-block mx-auto'>
                    
                    <img className=' w-15 h-8' src ='https://cdn.pixabay.com/photo/2017/01/19/09/11/logo-google-1991840_960_720.png'></img> 
                    <p>Google Sign in</p>
